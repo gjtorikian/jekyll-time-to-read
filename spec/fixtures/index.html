@@ -1,0 +1,11 @@
+---
+layout: landing_page
+---
+
+<section>
+
+  {% for post in site.posts %}
+    <span class="guide-read-time">{{ post.content | reading_time_as_s }}</span>
+  {% endfor %}
+
+</section>

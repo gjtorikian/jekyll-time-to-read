@@ -1,0 +1,4 @@
+*.gem
+_site/
+Gemfile.lock
+spec/dev/null.txt
