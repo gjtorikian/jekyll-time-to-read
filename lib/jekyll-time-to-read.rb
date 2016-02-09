@@ -15,7 +15,7 @@ end
 module ReadingTimeFilterAsInteger
   def reading_time_as_i( input )
     minutes, minutes_label = calculate_time(input)
-    minutes > 0 ? "#{minutes} #{minutes_label}" : "less than 1 minute"
+    minutes > 0 ? "#{minutes} #{minutes_label}" : "Less than 1 minute"
   end
 
   Liquid::Template.register_filter(ReadingTimeFilterAsInteger)
@@ -42,7 +42,7 @@ module ReadingTimeFilterAsString
     else        minutes_s = minutes
     end
 
-    minutes > 0 ? "#{minutes_s} #{minutes_label}" : "less than one minute"
+    minutes > 0 ? "#{minutes_s} #{minutes_label}" : "Less than one minute"
   end
 
   Liquid::Template.register_filter(ReadingTimeFilterAsString)
