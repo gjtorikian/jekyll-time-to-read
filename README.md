@@ -9,7 +9,7 @@ A liquid tag for Jekyll to indicate the time it takes to read an article.
 Add the following to your site's `_config.yml` file
 
 ```yml
-gems:
+plugins:
   - jekyll-time-to-read
 ```
 
